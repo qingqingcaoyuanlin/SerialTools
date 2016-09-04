@@ -1,0 +1,9 @@
+c:\users\qing\documents\visual studio 2013\Projects\SerialTool\SerialTool\bin\Debug\SerialTool.exe.config
+c:\users\qing\documents\visual studio 2013\Projects\SerialTool\SerialTool\bin\Debug\SerialTool.exe
+c:\users\qing\documents\visual studio 2013\Projects\SerialTool\SerialTool\bin\Debug\SerialTool.pdb
+c:\users\qing\documents\visual studio 2013\Projects\SerialTool\SerialTool\obj\Debug\SerialTool.csprojResolveAssemblyReference.cache
+c:\users\qing\documents\visual studio 2013\Projects\SerialTool\SerialTool\obj\Debug\SerialTool.Form1.resources
+c:\users\qing\documents\visual studio 2013\Projects\SerialTool\SerialTool\obj\Debug\SerialTool.Properties.Resources.resources
+c:\users\qing\documents\visual studio 2013\Projects\SerialTool\SerialTool\obj\Debug\SerialTool.csproj.GenerateResource.Cache
+c:\users\qing\documents\visual studio 2013\Projects\SerialTool\SerialTool\obj\Debug\SerialTool.exe
+c:\users\qing\documents\visual studio 2013\Projects\SerialTool\SerialTool\obj\Debug\SerialTool.pdb
