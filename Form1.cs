@@ -25,6 +25,7 @@ namespace SerialTool
         }
         private SerialPort myport;
         private SerialTest serialtest;
+        private PyFunction pyfun = new PyFunction();
         static long CommandCount= 0;
         static long CommandErrorCount = 0;
         static long CommandAll = 0;
@@ -41,6 +42,21 @@ namespace SerialTool
                 comboBox_Serial.SelectedIndex = 0;
                 myport.PortName = comboBox_Serial.Text;
             }
+            string[] temp = Directory.GetFiles(Directory.GetCurrentDirectory(),"*.py");
+            if (temp.Length > 0)
+            {
+                string[] pyFiles = new string[temp.Length+1];
+                pyFiles[0] = "无";
+                temp.CopyTo(pyFiles, 1);
+
+                comboBox_File.Items.AddRange(pyFiles);
+            }
+            else
+            {
+                comboBox_File.Items.Add("无");
+            }
+            comboBox_File.SelectedIndex = 0;
+            
         }
         
         private void btn_open_Click(object sender, EventArgs e)
@@ -278,6 +294,17 @@ namespace SerialTool
             {
                 this.richTextBox_Msg.Clear();           
             }));
+        }
+
+        private void comboBox_File_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (comboBox_File.SelectedItem.ToString() != "无")
+            {
+                pyfun.RunPythonFile(comboBox_File.SelectedItem.ToString());
+                
+                Console.WriteLine(pyfun.GetScriptFunctionDescription());
+                Console.WriteLine(pyfun.GetFunctionDissector("test"));
+            }
         }
     }
 }

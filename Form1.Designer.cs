@@ -35,6 +35,7 @@
             this.textBox_Error = new System.Windows.Forms.TextBox();
             this.richTextBox_Msg = new System.Windows.Forms.RichTextBox();
             this.buttonClear = new System.Windows.Forms.Button();
+            this.comboBox_File = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // textBox_All
@@ -79,7 +80,7 @@
             // 
             // richTextBox_Msg
             // 
-            this.richTextBox_Msg.Location = new System.Drawing.Point(13, 45);
+            this.richTextBox_Msg.Location = new System.Drawing.Point(13, 80);
             this.richTextBox_Msg.Name = "richTextBox_Msg";
             this.richTextBox_Msg.Size = new System.Drawing.Size(617, 374);
             this.richTextBox_Msg.TabIndex = 5;
@@ -95,11 +96,21 @@
             this.buttonClear.UseVisualStyleBackColor = true;
             this.buttonClear.Click += new System.EventHandler(this.buttonClear_Click);
             // 
+            // comboBox_File
+            // 
+            this.comboBox_File.FormattingEnabled = true;
+            this.comboBox_File.Location = new System.Drawing.Point(118, 54);
+            this.comboBox_File.Name = "comboBox_File";
+            this.comboBox_File.Size = new System.Drawing.Size(77, 20);
+            this.comboBox_File.TabIndex = 7;
+            this.comboBox_File.SelectedIndexChanged += new System.EventHandler(this.comboBox_File_SelectedIndexChanged);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(682, 431);
+            this.ClientSize = new System.Drawing.Size(682, 501);
+            this.Controls.Add(this.comboBox_File);
             this.Controls.Add(this.buttonClear);
             this.Controls.Add(this.richTextBox_Msg);
             this.Controls.Add(this.textBox_Error);
@@ -123,6 +134,7 @@
         private System.Windows.Forms.TextBox textBox_Error;
         private System.Windows.Forms.RichTextBox richTextBox_Msg;
         private System.Windows.Forms.Button buttonClear;
+        private System.Windows.Forms.ComboBox comboBox_File;
     }
 }
 

@@ -7,3 +7,28 @@ c:\users\qing\documents\visual studio 2013\Projects\SerialTool\SerialTool\obj\De
 c:\users\qing\documents\visual studio 2013\Projects\SerialTool\SerialTool\obj\Debug\SerialTool.csproj.GenerateResource.Cache
 c:\users\qing\documents\visual studio 2013\Projects\SerialTool\SerialTool\obj\Debug\SerialTool.exe
 c:\users\qing\documents\visual studio 2013\Projects\SerialTool\SerialTool\obj\Debug\SerialTool.pdb
+D:\SerialTool\SerialTools\bin\Debug\SerialTool.exe.config
+D:\SerialTool\SerialTools\obj\Debug\SerialTool.exe
+D:\SerialTool\SerialTools\obj\Debug\SerialTool.pdb
+D:\SerialTool\SerialTools\obj\Debug\SerialTool.csprojResolveAssemblyReference.cache
+D:\SerialTool\SerialTools\obj\Debug\SerialTool.Form1.resources
+D:\SerialTool\SerialTools\obj\Debug\SerialTool.Properties.Resources.resources
+D:\SerialTool\SerialTools\obj\Debug\SerialTool.csproj.GenerateResource.Cache
+D:\SerialTool\SerialTools\bin\Debug\SerialTool.exe
+D:\SerialTool\SerialTools\bin\Debug\SerialTool.pdb
+D:\SerialTool\SerialTools\bin\Debug\IronPython.dll
+D:\SerialTool\SerialTools\bin\Debug\IronPython.Modules.dll
+D:\SerialTool\SerialTools\bin\Debug\IronPython.SQLite.dll
+D:\SerialTool\SerialTools\bin\Debug\IronPython.Wpf.dll
+D:\SerialTool\SerialTools\bin\Debug\Microsoft.Dynamic.dll
+D:\SerialTool\SerialTools\bin\Debug\Microsoft.Scripting.AspNet.dll
+D:\SerialTool\SerialTools\bin\Debug\Microsoft.Scripting.dll
+D:\SerialTool\SerialTools\bin\Debug\Microsoft.Scripting.Metadata.dll
+D:\SerialTool\SerialTools\bin\Debug\IronPython.xml
+D:\SerialTool\SerialTools\bin\Debug\IronPython.Modules.xml
+D:\SerialTool\SerialTools\bin\Debug\IronPython.SQLite.xml
+D:\SerialTool\SerialTools\bin\Debug\IronPython.Wpf.xml
+D:\SerialTool\SerialTools\bin\Debug\Microsoft.Dynamic.xml
+D:\SerialTool\SerialTools\bin\Debug\Microsoft.Scripting.xml
+D:\SerialTool\SerialTools\bin\Debug\Microsoft.Scripting.AspNet.xml
+D:\SerialTool\SerialTools\bin\Debug\Microsoft.Scripting.Metadata.xml
